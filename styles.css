@@ -1,0 +1,201 @@
+ body{
+   margin: 0;
+   text-align: center;
+   font-family: "Merriweather", serif;
+   color: #40514E;
+   /* color: #66bfbf;; */
+ }
+h1{  
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento',cursive;
+} 
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat'sans-serif;
+}
+p{
+    line-height: 1.7;
+}
+.intro{
+    width: 40%;
+    margin: auto     
+}
+/* div{
+    background-color: #EAF6F6;
+} */
+.Top-Container{
+    background-color: #EAF6F6;
+    position: relative ;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-row2{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+   
+}
+.Top-cloud{
+    position: absolute ;
+    right: 300px;
+    top: 40px ;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+img.Profile-image {
+    width: 300px; 
+    height: auto; 
+}
+img.Myskillsgif{
+    width: 300px; 
+    height: auto; 
+    float: left;
+    margin-right: 30px;
+}
+img.designdeveopsgif{
+    width: 300px; 
+    height: auto; 
+    float: right;
+    margin-left: 20px;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999e;
+    font-family: "Merriweather", serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .animation-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+#animated-heading {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: slide-in 3s forwards; /* Check this line */
+}
+
+@keyframes slide-in {
+    0% {
+        top: 100%; /* Start outside the container */
+    }
+    100% {
+        top: 1%; /* End inside the container */
+    }
+}
+.btn {
+    background: #66bfbf;
+    background-image: -webkit-linear-gradient(top, #66bfbf, #619cab);
+    background-image: -moz-linear-gradient(top, #66bfbf, #619cab);
+    background-image: -ms-linear-gradient(top, #66bfbf, #619cab);
+    background-image: -o-linear-gradient(top, #66bfbf, #619cab);
+    background-image: linear-gradient(to bottom, #66bfbf, #619cab);
+    -webkit-border-radius: 28px; /* Added "px" unit */
+    -moz-border-radius: 28px; /* Added "px" unit */
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 30px; /* Removed the unnecessary right padding */
+    text-decoration: none;
+    display: inline-block; /* Added to ensure proper button display */
+  }
+  
+  .btn:hover {
+    background: #11999e;
+    background-image: -webkit-linear-gradient(top, #11999e, #a7b8c4);
+    background-image: -moz-linear-gradient(top, #11999e, #a7b8c4);
+    background-image: -ms-linear-gradient(top, #11999e, #a7b8c4);
+    background-image: -o-linear-gradient(top, #11999e, #a7b8c4);
+    background-image: linear-gradient(to bottom, #11999e, #a7b8c4);
+    text-decoration: none;
+  }
+  .fa-bars-progress{
+    margin-right: 10px;
+  }
+  .Mypara{
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  .Propara{
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  .Mycourese{
+    margin-left: 170px;
+    margin-right: 170px;
+
+  }
+  
